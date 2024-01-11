@@ -7,7 +7,7 @@ Welcome to my password generator! I built this password generator to make keepin
 ## Usage
 
 To generate a password click 'Generate Password' at the bottom of the central box.
-it will first ask if you want uppercase, then lowercase letters, then special characters, and lastly numbers. if you fail to select any the program will disply a message to tell the user to make a selection. the program allows any combination of the four options available. after making a selection you will be asked for your desired password length from 8 to 128. typing anything except for numbers from 8-128 will result in an 'Invalid entry' message and an appropriate message based on what was typed. additionally, the program also accounts for decimal entries to avoid cheeky trolls. once it accepts your entry it will display your password where 'Your Secure Password' is desplayed.
+it will first ask if you want uppercase, then lowercase letters, then special characters, and lastly numbers. if you fail to select any the program will disply a message to tell the user to make a selection. the program allows any combination of the four options available. after making a selection you will be asked for your desired password length from 8 to 128. typing anything except for numbers from 8-128 will result in an 'Invalid entry' message and an appropriate message based on what was typed. additionally, the program also accounts for decimal entries to avoid cheeky trolls. once it accepts your entry it will display your password where 'Your Secure Password' is displayed.
 
 ![password generator web app](./Assets/images/pwgscreenshot.jpg)
 
