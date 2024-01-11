@@ -41,7 +41,7 @@ function generatePassword() {
   }
   } while((useBig!=true)&&(useSmall!=true)&&(useChars!=true)&&(useNums!=true));
 
-  //queries user for password length. runs until user provides a valid
+  //queries user for password length. runs until user provides a valid number 8-128
   do {
     passwordSize = Number(prompt("How many characters do you need?\nMust be at least 8 and cannot exceed 128."));
     
@@ -89,6 +89,9 @@ function generatePassword() {
     }
   }
 
+  //loops based on password length entered by user. 
+  //index1 selects a list from remaining lists of characters while 
+  //index2 randomly selects a character from that list
   for (let i = 0; i < passwordSize; i++) {
     var index1 = Math.floor(Math.random()*choices.length);
     var index2 = Math.floor(Math.random()*choices[index1].length);
